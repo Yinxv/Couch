@@ -1,0 +1,181 @@
+#myHeader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #80918d;
+    z-index: 9999;
+}
+  
+button:hover{
+    cursor: pointer;
+}
+
+body{
+    margin: 0px;
+    background-color: #8d9f9a;
+    font-family:'Bebas Neue',sans-serif ;
+}
+
+.logo{
+    display:inline-block;
+    color: rgb(35, 41, 40);
+    font-family: 'Bebas Neue',sans-serif;
+    font-size: 50px;
+    margin: 0%;
+    background-color: transparent;
+    border-radius: 0%;
+    border-color: transparent;
+    margin-right:0px;
+    clear:right;
+    transform: translate(50px, -5%);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.shop,.about,.services,.contact{
+    float:right;
+    display:block;
+    margin-right:0px;
+    clear:left;
+    font-family:'Bebas Neue',sans-serif;
+    background-color: transparent;
+    border-style:double;
+    border-color: #37413f;
+    font-size: 35px;
+    transform: translate(-5px);
+    top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border-width: 5px;
+    color: #151b19;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .shop:active,.about:active,.services:active,.contact:active{
+    background-color: #373f3c;
+    color: #eaecde;
+    transition: 0.5s;
+  }
+  
+  .shop:hover,.about:hover,.services:hover,.contact:hover{
+    background-color: #505a57;
+    color: #e3e5d6;
+    transition: 0.5s;
+  }
+
+  .custom, .adress, .c, .num, .email, .Email, .logo1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #b6c3bf;
+  }
+  
+  .email, .c, .logo1{
+    color:#d6e2de ;
+    font-style: bold;
+    text-decoration: underline;
+  }
+  
+  .logo1{
+    background-color: transparent;
+    font-family: 'Bebas Neue',sans-serif;
+    font-size: 30px;
+    border-style: none;
+  }
+
+  .contacts1{
+    width: auto;
+    background-color: #273333;
+    height: 373px;
+    text-align: center;
+  }
+  
+  .text{
+    padding-top: 40px;
+    font-family: 'Bebas Neue',sans-serif;
+    font-size: 30px;
+  }
+
+  .container{
+    margin-top: 110px;
+    margin-bottom: 90px;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  input[type=text], select, textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  .bu{
+    background-color: #5f8c81;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    font-family:'Bebas Neue',sans-serif;
+    font-size: 30px;
+    transform: translate(-570px, 50px);
+    margin-top: 20px;
+  }
+  
+  .bu:hover {
+    background-color: #557d6b;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #8d9f9a;
+    padding: 10px;
+  }
+
+  .st, .last{
+     width: 435px;
+     transform: translate(-109px, 100px);
+  }
+
+  .emailp, .requesto{
+    width: 1000px;
+    margin-bottom: 5px;
+  }
+
+  .fname, .lname{
+    margin-bottom: 90px;
+    display: inline-block;
+    transform: translate(0px, 10px);
+    font-size: 30px;
+  }
+
+  .emailm, .requesot{
+     margin-top: 5px;
+     margin-bottom: 5px;
+     font-size: 30px;
+  }
+
+  .column{
+    transform: translate(70px, -50px);
+  }
+
+  .re, .emailm{
+    transform: translate(490px);
+    font-size: 30px;
+    color: #151b19;
+  }
+
+  .re{
+    transform: translate(475px);
+    margin: 5px;
+    margin-right: 0%;
+    border-radius: 0%;
+    width: 0%;
+  }
+
+  .us{
+    font-size: 40px;
+    color: #373f3c;
+  }

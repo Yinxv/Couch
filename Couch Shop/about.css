@@ -1,0 +1,121 @@
+#myHeader {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #80918d;
+    z-index: 9999;
+}
+  
+button:hover{
+    cursor: pointer;
+}
+
+body{
+  background-color:#7b8a87;
+}
+  
+.logo{
+    display:inline-block;
+    color: rgb(35, 41, 40);
+    font-family: 'Bebas Neue',sans-serif;
+    font-size: 50px;
+    margin: 0%;
+    background-color: transparent;
+    border-radius: 0%;
+    border-color: transparent;
+    margin-right:0px;
+    clear:right;
+    transform: translate(50px, -5%);
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.shop, .services, .contact, .home{
+    float:right;
+    display:block;
+    margin-right:0px;
+    clear:left;
+    font-family:'Bebas Neue',sans-serif;
+    background-color: transparent;
+    border-style:double;
+    border-color: #37413f;
+    font-size: 35px;
+    transform: translate(-5px);
+    top: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border-width: 5px;
+    color: #151b19;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.contact{
+   margin-right: 20px;
+}
+
+.shop:active, .services:active,.contact:active,.home:active{
+    background-color: #373f3c;
+    color: #eaecde;
+    transition: 0.5s;
+}
+
+.shop:hover, .home:hover, .services:hover, .contact:hover{
+    background-color: #505a57;
+    color: #e3e5d6;
+    transition: 0.5s;
+}
+
+.history{
+    padding-top: 100px;
+}
+
+.story, .do, .team{
+    font-family:'Bebas Neue',sans-serif;
+    color: #38433f;
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+.story1, .do1, .team1{
+    font-family:'Bebas Neue',sans-serif;
+    color: #212725;
+    font-size: 40px;
+}
+
+.contacts1{
+    width: auto;
+    background-color: #273333;
+    height: 373px;
+    text-align: center;
+  }
+  
+  .text{
+    padding-top: 40px;
+    font-family: 'Bebas Neue',sans-serif;
+    font-size: 30px;
+  }
+  
+  .custom, .adress, .c, .num, .email, .Email, .logo1{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #b6c3bf;
+  }
+  
+  .email, .c, .logo1{
+    color:#d6e2de ;
+    font-style: bold;
+    text-decoration: underline;
+  }
+  
+  .logo1{
+    background-color: transparent;
+    font-family: 'Bebas Neue',sans-serif;
+    font-size: 30px;
+    border-style: none;
+  }
+
+.team1{
+    padding-bottom: 50px;
+}
